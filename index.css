@@ -1,0 +1,25 @@
+body{
+    padding: 40px;
+}
+.upper{
+    display: flex;
+    flex-direction: row;
+}
+.second{
+    width: 300px;
+    margin-left: 20%;
+}
+
+
+
+
+/* ....... */
+
+@media (max-width : 540px){
+    .upper{
+        flex-direction: column;
+    }
+    .second{
+        margin-left: 0px;
+    }
+}
